@@ -1,0 +1,48 @@
+.fundo{
+    background-color: #092946;
+}
+
+/* Passo 1*/
+.carrossel{
+    width: 700px;
+    height: 438px;
+    margin-top: 12.5%;
+    margin-left: 25%;
+    overflow: hidden; /*Passo 4*/
+}
+
+/* Passo 2*/
+.carrossel .fotos{
+    width: 1100%; /* dos 640px de cima*/
+    animation: animacao 50s infinite; /* Passo5*/ 
+}
+
+/*Passo 3*/
+.carrossel .fotos img{
+    width: 700px; /* dos 500% de cima*/
+}
+
+/* Passo 6 */
+@keyframes animacao{
+    0% {margin-left: 0;}
+    8% {margin-left: 0;}      
+    10% {margin-left: -100%;}
+    18% {margin-left: -100%;}
+    20% {margin-left: -201%;}
+    28% {margin-left: -201%;}
+    30% {margin-left: -302%;}
+    38% {margin-left: -302%;}
+    40% {margin-left: -402%;}
+    48% {margin-left: -402%;}
+    50% {margin-left: -503%;}
+    58% {margin-left: -503%;}
+    60% {margin-left: -603%;}
+    68% {margin-left: -603%;}
+    70% {margin-left: -704%;}
+    78% {margin-left: -704%;}
+    80% {margin-left: -804%;}
+    88% {margin-left: -804%;}
+    90% {margin-left: -905%;}
+    98% {margin-left: -905%;}
+    100% {margin-left: -0%;}
+}
